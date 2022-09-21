@@ -4,7 +4,7 @@ import numpy as np
 import os
 print(os.getcwd())
 import time
-model=pickle.load(open('C:\\Users\\Hp\\OneDrive\\Projects\\boston\\model.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
 
 
 def predict_forest(nox,rm,dis,ptratio,lstat):
