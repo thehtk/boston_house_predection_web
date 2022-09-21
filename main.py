@@ -3,7 +3,7 @@ import numpy as np
 import warnings
 import pickle
 warnings.filterwarnings("ignore")
-df =pd.read_csv("C:\\Users\\Hp\\OneDrive\\Projects\\boston\\boston.csv")
+df =pd.read_csv("boston.csv")
 X=df[['nox','rm','dis','ptratio','lstat']]
 y=df['medv']
 from sklearn.model_selection import train_test_split
