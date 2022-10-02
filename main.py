@@ -7,7 +7,7 @@ df =pd.read_csv("boston.csv")
 X=df[['nox','rm','dis','ptratio','lstat']]
 y=df['medv']
 
-import sklearn.linear_model.LinearRegression
+import sklearn
 regressor=LinearRegression()
 regressor.fit(X,y)
 
